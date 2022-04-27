@@ -7,6 +7,12 @@
     <div :style="{ color : isActive ? 'green' : '' }"> html绑定style </div>
     <div :style="computedStyleObject"> style绑定style </div>
 
+    <van-cell title="姓名" is-link>
+        <div>
+            <input type="text">
+        </div>
+    </van-cell>
+
   </div>
 </template>
 
